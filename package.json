@@ -1,0 +1,17 @@
+{
+    "name": "local-ra-flycheck-watcher",
+    "displayName": "Local rust-analyzer Flycheck Watcher",
+    "description": "Run rust-analyzer flycheck when Rust files are changed externally.",
+    "version": "0.0.1",
+    "publisher": "local",
+    "engines": {
+        "vscode": "^1.118.1"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js"
+}
